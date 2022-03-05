@@ -11,9 +11,29 @@
     <div class="container__main">
         <header>
             <div class="container__items">
-                <img src="./images/logo.svg" alt="" srcset="">
+                <nav class="header__mobile">
+                    <div id="menuMobileStack" class="menu__full_mobile animate display__none">
+                        <div class="container__items_full_mobile">
 
-                <nav>
+                        </div>
+                    </div>
+                    <button class="button__menu" id="menuMobile">
+                        Меню
+                    </button>
+                    <img src="./images/logo.svg" class="image__mobile" alt="" srcset="">
+                    <div class="container__buttons_header">
+                        <button class="button__lang">
+                            KZ
+                        </button>
+                        <button class="button__login">
+                            Войти
+                        </button>
+                    </div>
+                </nav>
+
+                <img src="./images/logo.svg" class="image__desktop" alt="" srcset="">
+
+                <nav class="header__desktop">
                     <a href="#">Лотереи</a>
                     <a href="#" class="sales">Акции</a>
                     <a href="#">Архив тиражей</a>
@@ -32,5 +52,7 @@
             </div>
         </header>
     </div>
+
+    <script src="./javascript/not-log.js"></script>
 </body>
 </html>
